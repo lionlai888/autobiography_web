@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion's life</title>
+    <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--CSS連結-->
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--header-->
+
+    <header>
+
+        <div class="logo_box">
+            <a href="index.html"><img src="images/lion2.png" class="logo"></a>
+        </div>
+
+            <!--RWD即時按鈕-->
+        <div id="menu-bar" class="fas fa-bars"></div>
+                <nav class="navbar">
+                    <a href="first.html">關於我</a>
+                    <a href="first.html#Experience">學經歷</a>
+                    <a href="first.html#Portfolio">作品集</a>
+                    <a href="first.html#future">未來展望</a>
+
+                </nav>
+
+
+    </header>
+
+    <!--首頁-->
+
+    <section class="home" id="home">
+
+        <div class="content">
+
+            <img src="images/lion5.jpg" alt="author">
+            <h3>賴彥谷 Lion</h3>
+            <p>經過沉澱，終能看見周遭以及遠方，<br>
+               我慶幸而感謝生在這美麗的土地，<br>
+               如果要說有什麼願望?<br>
+               就是希望去描繪這片土地<br>
+               還有紀錄人們曾活過的事蹟。<br><br>
+
+               輕哼一曲，文寫一篇，<br>
+               遊走於知識和幽默之間。
+            </p>
+            <a href="#" class="btn">更多關於我</a>
+        </div>
+
+    </section>
+
+
+    <!--about-->
+    <section class="category" id="category">
+
+        <div class="box-container">
+            <!-- 第一章 -->
+            <div class="box" onclick="location.href='first.html#Experience'";>
+                <div class="content">
+                    <h3>Lion學經歷</h3>
+                    <img src="images/lionglass.png">
+                </div>
+            </div>
+
+            <!-- 第二章 -->
+            <div class="box" onclick="location.href='first.html#Portfolio'">
+                <div class="content">
+                    <h3>作品集</h3>
+                    <img src="images/liondraw.png">
+                </div>
+            </div>
+
+            <!-- 第三章 -->
+            <div class="box" onclick="location.href='first.html#future'">
+                <div class="content">
+                    <h3>未來展望</h3>
+                    <img src="images/lionmagnifier.png">
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!--footer-->
+    <section class="footer" id="footer">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-square" style="color: blue ;font-size: 30px;"></i></a>
+            <a href="#"><i class="fab fa-line" style="color: rgb(41, 194, 41) ; font-size: 30px ;"></i></a>
+
+        </div>
+        <h1 class="creadit">LionGood Studio <span>版權所有 &copy;</span></h1>
+
+    </section>
+
+    <!-- 回到上層 -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-up"></a>
+
+
+
+</body>
+    <!--JS連結-->
+    <script src="js/script.js"></script>
+</html>

@@ -1,0 +1,298 @@
+/* 版面設定 */
+*{
+
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.4s all linear;
+    font-size: 20px;
+}
+
+/* header */
+header{
+    font-size: 25px;
+    background: rgb(56, 245, 255);
+    background: url("../images/cloud2.jpg") no-repeat;
+    background-size: cover;
+    background-position: left;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 80px;
+    padding-left: 2px;
+}
+
+/* header img{
+    width: 50px; padding-bottom: -10px; filter: saturate(8);
+}*/
+
+header .navbar a{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(160, 60, 0);
+    padding-left: 10px;
+}
+
+header .logo{
+    height: 50px;
+}
+
+
+header .logo_box {
+    margin-left: 50px;
+}
+
+
+
+header .navbar a:hover{
+    font-size: 22px;
+    font-weight: 900;
+    color: rgb(0,157,50);
+    margin-left: 10px;
+    transition: 1s;
+    background-color: white;
+    padding: 18px 10px 18px 10px ;
+}
+
+#menu-bar{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(9,152,152);
+    border: 1px solid rgb(9, 152, 152);
+    border-radius: 5px;
+    padding: 8px;
+    display: none;
+}
+
+/* 關於Lion */
+
+.about {
+    margin-top: 100px;
+    margin-bottom: -30px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .headphoto{
+    margin: 0px auto;
+}
+
+.about .content{
+    margin-left: 30px;
+}
+
+
+.about .content h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(9, 152, 152);
+}
+
+/* 我的學經歷 */
+
+.Experience {
+    margin-top: -40px;
+    padding: 50px;
+}
+
+.Experience .myexp{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(9, 152, 152);
+}
+.Experience .myexp span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(57, 56, 56);
+}
+
+.Experience .content{
+
+    border: 5px dashed rgb(159, 159, 159);
+    border-radius: 10px;
+    background-color: rgb(230, 255, 255);
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.Experience .school{
+    border: 5px dashed rgb(159, 159, 159);
+    border-radius: 10px;
+    background-color: rgb(247, 220, 232);
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+
+/* 作品集 */
+
+.Portfolio{
+    margin-top: -20px;
+    padding: 50px;
+}
+
+.Portfolio h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(9, 152, 152);
+}
+
+.Portfolio h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+
+}
+/* 程式 */
+.Portfolio .content_coding{
+    margin-top: 20px;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: rgb(255, 250, 224);
+    border-radius: 20px;
+}
+
+.Portfolio .content_coding .box1{
+    flex: 1;
+    padding: 30px;
+    margin: auto;
+
+    background-color: white;
+    border-radius: 20px;
+    border-style: outset;
+}
+.Portfolio .content_coding .box1 h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+
+
+.Portfolio .content_coding .box2{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+
+}
+/* 接案 */
+.Portfolio .content_design{
+
+    margin-top: 20px;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(213, 253, 228);
+    border-radius: 20px;
+}
+
+.Portfolio .content_design .box1{
+    flex: 1;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    border-style: outset;
+}
+.Portfolio .content_design .box1 h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+.Portfolio .content_design .box2{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+/* 文創 */
+.Portfolio .content{
+
+    margin-top: 20px;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    background-color: rgb(219, 252, 252);
+    border-radius: 20px;
+
+}
+
+.Portfolio .content .box1{
+    flex: 1;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    border-style: outset;
+}
+.Portfolio .content .box1 h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+
+
+.Portfolio .content .box2{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 未來展望 */
+
+.future{
+
+    margin-top: -20px;
+    padding: 50px;
+}
+
+.future h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(9, 152, 152);
+}
+
+.future .content_future{
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px dashed rgb(159, 159, 159);
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgb(253, 243, 254);
+}
+
+.future img{
+    border-radius: 20px;
+}
